@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvDate"
         android:layout_centerHorizontal="true"
-        android:isIndicator="false"
+        android:isIndicator="true"
         android:numStars="5"
         />
 
@@ -68,9 +68,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ratingBar"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:text="TextView"
-        android:gravity="fill"
-        android:textColor="#fff"/>
+        android:textColor="#fff" />
 </RelativeLayout>
